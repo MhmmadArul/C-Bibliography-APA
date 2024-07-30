@@ -1,0 +1,38 @@
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.web {
+    width: 850px;
+}
+
+.head {
+    font-size: 5em;
+}
+
+.about-APAWeb {
+    margin-top: 10px;
+}
+
+@media screen and (max-width:768px){
+    .navbar-nav {
+        gap: 0;
+    }
+    .web {
+        width: 400px;
+    }
+}

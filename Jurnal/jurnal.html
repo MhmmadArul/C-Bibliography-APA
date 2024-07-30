@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C-Bibliography</title>
+     <!-- Bootstrap Style -->
+     <link rel="stylesheet" href="../Framework/bootstrap-5.3.3/css/bootstrap.min.css">
+     <!-- Home Style -->
+     <link rel="stylesheet" href="jurnal.css">
+     <!-- Font Style -->
+      <link rel="stylesheet" href="../Library Font/fontawesome-free-6.5.2/css/all.min.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../home.html">C-Bibliography</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="jurnal.html">Jurnal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Book/book.html">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="../Website/web.html">Website</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <div class="container jurnal">
+          <h3 class="head">Jurnal</h3>
+            <div class="row about-APAJurnal">
+                <p style="text-align: justify;">
+                Dalam penulisan referensi jurnal menggunakan APA Style, entri bibliografi harus mencakup beberapa elemen penting yang disusun dengan urutan tertentu. Dimulai dengan nama penulis yang ditulis dengan nama belakang diikuti oleh inisial nama depan. Setelah itu, tahun publikasi jurnal ditulis dalam tanda kurung, diikuti dengan titik. Judul artikel kemudian ditulis dalam huruf miring, diikuti dengan nama jurnal yang juga ditulis dalam huruf miring dan dengan huruf kapital di setiap kata utama. Selanjutnya, volume jurnal ditulis dalam huruf miring, nomor isu dalam tanda kurung (jika ada), dan diakhiri dengan nomor halaman artikel. 
+                </p>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <div class="penulis-1">
+                        <h5>Penulis 1</h5>
+                        <input type="text" id="namaDepan1" placeholder="masukan nama depan">
+                        <input type="text" id="namaTengah1" placeholder="masukan nama tengah">
+                        <input type="text" id="namaAkhir1" placeholder="masukan nama akhir">
+                    </div>
+                    <div class="penulis-2">
+                        <h5>Penulis 2</h5>
+                        <input type="text" id="namaDepan2" placeholder="masukan nama depan">
+                        <input type="text" id="namaTengah2" placeholder="masukan nama tengah">
+                        <input type="text" id="namaAkhir2" placeholder="masukan nama akhir">
+                    </div>
+                    <div class="penulis-3">
+                        <h5>Penulis 3</h5>
+                        <input type="text" id="namaDepan3" placeholder="masukan nama depan">
+                        <input type="text" id="namaTengah3" placeholder="masukan nama tengah">
+                        <input type="text" id="namaAkhir3" placeholder="masukan nama akhir">
+                    </div>
+                </div>
+            </div>
+            <div class="row detail">
+                <div class="col-md-6 detail-1">
+                    <div class="tahun-terbit">
+                        <input type="text" id="tahunTerbit" placeholder="tahun terbit">
+                    </div>
+                    <div class="judul-artikel">
+                        <input type="text" id="judulArtikel" placeholder="judul artikel">
+                    </div>
+                    <div class="nama-jurnal">
+                        <input type="text" id="namaJurnal" placeholder="nama jurnal">
+                    </div>
+                </div>
+                <div class="col-md-6 detail-2">
+                    <div class="volume">
+                        <input type="text" id="volume" placeholder="volume">
+                    </div>
+                    <div class="nomor">
+                        <input type="text" id="nomor" placeholder="nomor">
+                    </div>
+                    <div class="halaman">
+                        <input type="text" id="halaman" placeholder="halaman">
+                    </div>
+                </div>
+                <button type="button" class="btn btn-primary">Result</button>
+            </div>
+            <h6 id="show"></h6>
+          </div>
+      </main>
+
+
+    <!-- Bootstrap JS -->
+    <script src="../Framework/bootstrap-5.3.3/js/bootstrap.bundle.min.js"></script>
+    <!-- Font JS -->
+     <script src="../Library Font/fontawesome-free-6.5.2/js/all.min.js"></script>
+     <!-- Jurnal JS -->
+      <script src="jurnal.js"></script>
+</body>
+</html>

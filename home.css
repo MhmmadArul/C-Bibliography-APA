@@ -1,0 +1,76 @@
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.home {
+    width: 850px;
+    margin-top: 60px;
+}
+
+.head h3 {
+    font-size: 5em;
+}
+
+.home .link-home {
+    display: flex;
+    gap: 12px;
+    margin-top: -5px;
+}
+
+.home .link-home a {
+    text-decoration: none;
+    font-size: 1.1em;
+    color: black;
+}
+
+.home .link-home a:hover {
+    color: #5a5a5a;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.sci ul{
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+    margin-left: -32px;
+    margin-top: -5px;
+}
+
+.sci ul li {
+    list-style: none;
+}
+
+.sci ul li a {
+    font-size: 1.3em;
+    color: black;
+}
+
+
+@media screen and (max-width : 768px) {
+    .navbar-nav {
+        gap: 0;
+    }
+
+    .home {
+        width: 400px;
+        margin-top: 10px;
+    }
+
+}

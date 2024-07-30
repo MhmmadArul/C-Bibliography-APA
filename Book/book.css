@@ -1,0 +1,136 @@
+
+.navbar-brand {
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.navbar {
+    padding: 20px;
+}
+
+.navbar-nav {
+    gap: 20px;
+}
+
+.nav-link {
+    font-weight: 600;
+}
+
+.book {
+    width: 850px;
+}
+
+.head{
+    font-size: 5em;
+}
+
+.about-APABook {
+    margin-top: 10px;
+}
+
+.penulis-1, .penulis-2, .penulis-3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+
+.penulis-1 input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.penulis-2 input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.penulis-3 input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.detail {
+    margin-top: 10px;
+}
+
+.tahun-terbit, .judul-buku {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.tahun-terbit input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.judul-buku input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.edisi, .penerbit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.edisi input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.penerbit input {
+    border-radius: 10px;
+    border-color: transparent;
+    padding: 5px;
+    border-bottom-color: #ddd;
+}
+
+.btn {
+    width: 700px;
+    margin: 20px auto;
+}
+
+#show {
+    padding: 20px;
+    border: 2px solid rgb(126, 126, 255);
+    border-radius: 10px;
+    height: 80px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .navbar-nav {
+        gap: 0;
+    }
+
+    .book {
+        width: 400px;
+    }
+
+    .penulis-1, .penulis-2, .penulis-3 {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 380px;
+    }
+}
